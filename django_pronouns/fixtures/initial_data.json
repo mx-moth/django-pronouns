@@ -1,0 +1,42 @@
+[
+	{"model":"django_pronouns.pronoun", "pk": 1, "fields": {
+		"name":"Male", "description":"Masculine pronouns",
+		"object": "him",
+		"subject": "he",
+		"reflexive": "himself",
+		"possessive_pronoun": "his",
+		"possessive_determiner": "his"
+	}},
+	{"model":"django_pronouns.pronoun", "pk": 2, "fields": {
+		"name":"Female", "description":"Feminine pronouns",
+		"object": "her",
+		"subject": "she",
+		"reflexive": "herself",
+		"possessive_pronoun": "hers",
+		"possessive_determiner": "her"
+	}},
+	{"model":"django_pronouns.pronoun", "pk": 3, "fields": {
+		"name":"They/their", "description":"Singular they",
+		"object": "they",
+		"subject": "they",
+		"reflexive": "themself",
+		"possessive_pronoun": "theirs",
+		"possessive_determiner": "their"
+	}},
+	{"model":"django_pronouns.pronoun", "pk": 4, "fields": {
+		"name":"It", "description":"Neuter pronouns",
+		"object": "it",
+		"subject": "it",
+		"reflexive": "itself",
+		"possessive_pronoun": "its",
+		"possessive_determiner": "its"
+	}},
+	{"model":"django_pronouns.pronoun", "pk": 5, "fields": {
+		"name":"Spivak", "description":"Spivak, gender neutral pronouns",
+		"object": "em",
+		"subject": "ey",
+		"reflexive": "emself",
+		"possessive_pronoun": "eir",
+		"possessive_determiner": "eirs"
+	}}
+]
